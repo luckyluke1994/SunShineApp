@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">SunShine</string>
     <string name="hello_world">Hello world</string>
+    <string name="action_refresh" translatable="false">Refresh</string>
 </resources>
