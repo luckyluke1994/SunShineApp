@@ -12,7 +12,7 @@ import static android.icu.lang.UCharacter.GraphemeClusterBreak.L;
  * Created by mai.dai.dien on 09/01/2017.
  */
 public class SettingsActivity extends PreferenceActivity implements
-    Preference.OnPreferenceChangeListener{
+    Preference.OnPreferenceChangeListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,6 +20,7 @@ public class SettingsActivity extends PreferenceActivity implements
         addPreferencesFromResource(R.xml.pref_general);
 
         bindPreferenceSummaryToValue(findPreference(getString(R.string.pref_location_key)));
+        bindPreferenceSummaryToValue(findPreference(getString(R.string.pref_units_key)));
     }
 
     private void bindPreferenceSummaryToValue(Preference preference) {
@@ -43,6 +44,6 @@ public class SettingsActivity extends PreferenceActivity implements
         } else {
             preference.setSummary(stringValue);
         }
-        return false;
+        return true;
     }
 }
