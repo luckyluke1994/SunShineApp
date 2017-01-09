@@ -9,7 +9,7 @@ import android.preference.PreferenceManager;
 import static android.icu.lang.UCharacter.GraphemeClusterBreak.L;
 
 /**
- * Created by FRAMGIA\mai.dai.dien on 09/01/2017.
+ * Created by mai.dai.dien on 09/01/2017.
  */
 public class SettingsActivity extends PreferenceActivity implements
     Preference.OnPreferenceChangeListener{
