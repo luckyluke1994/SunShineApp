@@ -1,4 +1,4 @@
-package app.com.example.maidaidien.sunshine;
+package com.example.maidaidien.sunshine.app;
 
 import org.junit.Test;
 
